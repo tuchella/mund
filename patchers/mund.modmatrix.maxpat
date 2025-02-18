@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 1089.0 ],
+		"rect" : [ 34.0, 85.0, 1343.0, 1073.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -378,7 +378,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 105.0, 808.0, 30.0, 30.0 ]
 				}
 
@@ -871,8 +871,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 737.0, 1415.0, 78.0, 22.0 ],
-					"text" : "send~ speed"
+					"patching_rect" : [ 748.0, 1415.0, 88.0, 22.0 ],
+					"text" : "send~ r_speed"
 				}
 
 			}
@@ -882,8 +882,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 639.0, 1415.0, 72.0, 22.0 ],
-					"text" : "send~ theta"
+					"patching_rect" : [ 650.0, 1415.0, 85.0, 22.0 ],
+					"text" : "send~ r_angle"
 				}
 
 			}
@@ -893,8 +893,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 539.0, 1415.0, 74.0, 22.0 ],
-					"text" : "send~ alpha"
+					"patching_rect" : [ 539.0, 1415.0, 100.0, 22.0 ],
+					"text" : "send~ r_distance"
 				}
 
 			}
@@ -934,7 +934,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 0.85 ],
+					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 0.83 ],
 					"id" : "obj-27",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -961,6 +961,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"candycane" : 7,
 					"candycane3" : [ 0.176470588235294, 0.815686274509804, 0.756862745098039, 1.0 ],
 					"candycane4" : [ 0.788235294117647, 0.815686274509804, 0.192156862745098, 1.0 ],
@@ -968,8 +969,8 @@
 					"candycane7" : [ 0.882352941176471, 0.596078431372549, 0.149019607843137, 1.0 ],
 					"dividers" : "none",
 					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 9.5,
 					"id" : "obj-18",
 					"incolormap" : "none",
 					"inlabels" : [ "EXT_0", "EXT_1", "EXT_2", "LFO_0", "LFO_1", "MOUSE_X", "MOUSE_Y" ],
@@ -980,7 +981,7 @@
 					"numoutlets" : 2,
 					"numouts" : 7,
 					"outcolormap" : "none",
-					"outlabels" : [ "prob", "amp", "rm_depth", "[V O I D]", "alpha", "theta", "speed" ],
+					"outlabels" : [ "prob", "amp", "rm_depth", "[V O I D]", "distance", "angle", "speed" ],
 					"outlettype" : [ "", "dictionary" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 250.0, 614.0, 619.0, 268.0 ],

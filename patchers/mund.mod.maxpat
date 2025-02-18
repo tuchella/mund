@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 945.0, 85.0, 393.0, 1080.0 ],
+		"rect" : [ 945.0, 85.0, 393.0, 1073.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -183,7 +183,8 @@
 			}
 , 			{
 				"box" : 				{
-					"hint" : "rm",
+					"hidden" : 1,
+					"hint" : "r_angle",
 					"id" : "obj-27",
 					"maxclass" : "hint",
 					"numinlets" : 1,
@@ -277,7 +278,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "show_mod[2]",
+							"parameter_longname" : "show_mod[4]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "show",
@@ -312,7 +313,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 140.0, 85.0, 30.0, 30.0 ]
 				}
 
@@ -404,6 +405,7 @@
 , 			{
 				"box" : 				{
 					"appearance" : 1,
+					"hidden" : 1,
 					"id" : "obj-14",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -416,7 +418,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "mod_spread[2]",
+							"parameter_longname" : "mod_spread[4]",
 							"parameter_mmax" : 50.0,
 							"parameter_mmin" : -50.0,
 							"parameter_modmode" : 3,
@@ -495,6 +497,7 @@
 , 			{
 				"box" : 				{
 					"appearance" : 1,
+					"hidden" : 1,
 					"id" : "obj-4",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -506,7 +509,7 @@
 					"presentation_rect" : [ 15.0, 4.0, 50.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "mod_depth[2]",
+							"parameter_longname" : "mod_depth[4]",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "depth",
@@ -537,7 +540,9 @@
 					"angle" : 270.0,
 					"background" : 1,
 					"bgcolor" : [ 0.470588235294118, 0.470588235294118, 0.470588235294118, 1.0 ],
+					"hidden" : 1,
 					"id" : "obj-20",
+					"ignoreclick" : 0,
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
@@ -563,7 +568,9 @@
 					"background" : 1,
 					"grad1" : [ 0.0, 0.0, 0.0, 0.5 ],
 					"grad2" : [ 0.0, 0.0, 0.0, 0.39 ],
+					"hidden" : 1,
 					"id" : "obj-1",
+					"ignoreclick" : 0,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
