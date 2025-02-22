@@ -652,7 +652,7 @@
 					"patching_rect" : [ 1028.0, 2187.0, 679.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 277.0, 739.0, 21.0 ],
-					"text" : "[17:26:41] fit umap...",
+					"text" : "[11:35:29] load dataset... with 4722 entries",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -895,7 +895,7 @@
 					"patching_rect" : [ 980.75, 2128.0, 679.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 256.0, 739.0, 21.0 ],
-					"text" : "[17:26:54] done: fit umap",
+					"text" : "[11:35:32] done: load dataset",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1138,7 +1138,7 @@
 					"patching_rect" : [ 929.0, 2070.0, 679.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 235.0, 739.0, 21.0 ],
-					"text" : "[17:26:54] fit kdtree...",
+					"text" : "[11:35:32] fit kdtree...",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1381,7 +1381,7 @@
 					"patching_rect" : [ 888.0, 2011.0, 679.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 214.0, 739.0, 21.0 ],
-					"text" : "[17:26:54] wrote to C:/Users/lt/Projects/mund/corpora/tuba_vocal_cut2pra.norm.json",
+					"text" : "[11:35:32] done: fit kdtree",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1542,7 +1542,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 986.0, 1608.0, 50.0, 64.0 ],
-					"text" : "dictionary u228002865"
+					"text" : "dictionary u264003324"
 				}
 
 			}
@@ -1715,7 +1715,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1693.0, 696.0, 345.0, 22.0 ],
-					"text" : "pointcolor 5852 0.489137 0.389753 0.499448 1."
+					"text" : "pointcolor 4722 0.845642 0.367652 0.494778 1."
 				}
 
 			}
@@ -3457,7 +3457,7 @@
 					"patching_rect" : [ 861.0, 1956.0, 679.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 193.0, 739.0, 21.0 ],
-					"text" : "[17:26:54] done: fit kdtree",
+					"text" : "[11:49:15] done fit mfcc kdtree",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -3743,7 +3743,7 @@
 					"fontname" : "Fira Code",
 					"fontsize" : 27.0,
 					"id" : "obj-21",
-					"items" : [ "132431__taminotamerlano__vcaufsteg1.wav", ",", "607199__vic_nic__budhaditya-chattopadhyay-210105_01_l.wav", ",", "690117__lucionfrostburn__the-gloom-slayer.wav", ",", "693269__lucionfrostburn__vocal-warm-up1.wav", ",", "696597__hinokiowo__a-s-m-r.wav", ",", "700964__beautifuldaymonster1968__demon-witch-laughter-no-effects.wav", ",", "ALTVO01.wav", ",", "ALTVO02.wav", ",", "consolation_but_only_the_quiet_parts.wav", ",", "ffff.wav", ",", "GOAT01.wav", ",", "GUIT00.wav", ",", "GUIT01.wav", ",", "GUIT02.wav", ",", "iiii.wav", ",", "ikho01.wav", ",", "IKHO02.wav", ",", "mmmm.wav", ",", "recur.wav", ",", "test.wav", ",", "test2.wav", ",", "tuba_vocal.wav", ",", "tuba_vocal_cut.wav", ",", "tuba_vocal_cut2-old1.wav", ",", "tuba_vocal_cut2.wav", ",", "tuba_vocal_cut_1-5hz.wav", ",", "tuba_vocal_cut_4-16hz.wav", ",", "WHISP01.wav" ],
+					"items" : [ "132431__taminotamerlano__vcaufsteg1.wav", ",", "607199__vic_nic__budhaditya-chattopadhyay-210105_01_l.wav", ",", "690117__lucionfrostburn__the-gloom-slayer.wav", ",", "693269__lucionfrostburn__vocal-warm-up1.wav", ",", "696597__hinokiowo__a-s-m-r.wav", ",", "700964__beautifuldaymonster1968__demon-witch-laughter-no-effects.wav", ",", "ALTVO01.wav", ",", "ALTVO02.wav", ",", "ANNA01.wav", ",", "consolation_but_only_the_quiet_parts.wav", ",", "ffff.wav", ",", "GOAT01.wav", ",", "GUIT00.wav", ",", "GUIT01.wav", ",", "GUIT02.wav", ",", "iiii.wav", ",", "ikho01.wav", ",", "IKHO02.wav", ",", "mmmm.wav", ",", "MOND01.wav", ",", "NGST01.wav", ",", "recur.wav", ",", "RIPL01.wav", ",", "RIPL02.wav", ",", "SPAR01.wav", ",", "test.wav", ",", "test2.wav", ",", "tuba_vocal.wav", ",", "tuba_vocal_cut.wav", ",", "tuba_vocal_cut2-old1.wav", ",", "tuba_vocal_cut2.wav", ",", "tuba_vocal_cut_1-5hz.wav", ",", "tuba_vocal_cut_4-16hz.wav", ",", "WHISP01.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
